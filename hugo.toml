@@ -1,0 +1,57 @@
+baseURL = 'https://kikyo0x.github.io/'
+languageCode = 'zh-CN'
+defaultContentLanguage = 'zh-cn'
+title = 'Kikyo0x 的空间'
+theme = 'FixIt'
+
+# 是否开启 emoji 标签
+enableEmoji = true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    identifier = "categories"
+    name = "分类"
+    url = "/categories/"
+    weight = 3
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 4
+
+[params]
+  version = "0.3.X"
+  description = "Kikyo0x 的个人博客"
+  keywords = ["Blog", "Kikyo0x", "Hugo", "FixIt"]
+
+  # 页头配置
+  [params.header]
+    [params.header.title]
+      name = "Kikyo0x"
+
+  # 首页配置
+  [params.home]
+    [params.home.profile]
+      enable = true
+      avatarURL = "https://github.com/Kikyo0x.png"
+      title = "Kikyo0x"
+      subtitle = "架构 / 极客 / 个人主页"
+      typeit = true
+
+      [params.home.profile.social]
+        GitHub = "Kikyo0x"
+
+  # 代码块配置
+  [params.code]
+    copy = true
+    maxShownLines = 30
