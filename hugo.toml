@@ -34,6 +34,13 @@ enableEmoji = true
   description = "Kikyo0x 的个人博客"
   keywords = ["Blog", "Kikyo0x", "Hugo", "FixIt"]
 
+  # 全局默认作者配置
+  [params.author]
+    name = "Kikyo0x"
+    email = "kikyo0x@users.noreply.github.com"
+    link = "https://github.com/Kikyo0x"
+    avatar = "https://github.com/Kikyo0x.png"
+
   # 页头配置
   [params.header]
     [params.header.title]
