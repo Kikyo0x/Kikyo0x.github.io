@@ -21,10 +21,10 @@ summary: "因换手机且 Microsoft Authenticator 未开云备份，旧 GitHub �
 
 好在旧博客是挂在 GitHub Pages 上的静态站点，域名和内容依然在正常运行。那上面记录了我之前写过的一些实战笔记和读书总结：
 
-- **分布式系统**：《数据密集型应用系统设计》（DDIA）多章节笔记与总结
-- **底层与网络**：MetalLB 抓包与二三层浅析、Wireshark 源码构建
-- **Go 语言机制**：基于寄存器调用惯例的 Go 接口调用机制
-- **业务踩坑**：多叉树遍历与复杂的跨泳道工作项排序实现
-- **环境折腾**：开发环境配置、各种实用运维脚本
+- **分布式系统**：[《数据密集型应用系统设计》（DDIA）系列笔记](https://boatrainlsz.github.io/tags/%E6%95%B0%E6%8D%AE%E5%AF%86%E9%9B%86%E5%9E%8B%E5%BA%94%E7%94%A8%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/)
+- **底层与网络**：[metallb浅析](https://boatrainlsz.github.io/posts/metallb_deep_dive/)、[在Ubuntu上从源码构建最新版wireshark](https://boatrainlsz.github.io/posts/build_wireshark_from_source/)
+- **Go 语言机制**：[基于寄存器调用惯例的Go语言接口调用机制](https://boatrainlsz.github.io/posts/go/)
+- **业务踩坑**：[一个排序问题（多叉树先序遍历与跨泳道排序）](https://boatrainlsz.github.io/posts/sort-issue/)
+- **工程折腾**：[开发环境折腾之路](https://boatrainlsz.github.io/posts/setup_my_development_env/)、[用latex画出源代码与其汇编代码的关系图](https://boatrainlsz.github.io/posts/latex-research/)、[平时常用到的一些脚本](https://boatrainlsz.github.io/posts/common_scripts/)
 
 旧站里的文章就不费劲搬运了，留在那边当作阶段性的只读归档。后续所有的技术折腾、底层逆向和工程踩坑都会在这个新站继续写。
