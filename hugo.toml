@@ -37,7 +37,7 @@ enableEmoji = true
   # 全局默认作者配置
   [params.author]
     name = "Kikyo0x"
-    email = "kikyo0x@users.noreply.github.com"
+    email = "boatrainlsz@gmail.com"
     link = "https://github.com/Kikyo0x"
     avatar = "https://github.com/Kikyo0x.png"
 
@@ -54,9 +54,12 @@ enableEmoji = true
       title = "Kikyo0x"
       subtitle = "架构 / 极客 / 个人主页"
       typeit = true
+      social = true
 
-      [params.home.profile.social]
-        GitHub = "Kikyo0x"
+  # 社交账号链接配置
+  [params.social]
+    GitHub = "Kikyo0x"
+    Email = "boatrainlsz@gmail.com"
 
   # 代码块配置
   [params.code]
