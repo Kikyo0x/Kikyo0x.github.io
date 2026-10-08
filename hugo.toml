@@ -66,6 +66,10 @@ enableEmoji = true
     copy = true
     maxShownLines = 30
 
+  # 站点验证代码配置
+  [params.verification]
+    google = "xhuI--tBwwRq4-GYxcv8rrWC6zo96jmt1JSbuaW9_eU"
+
   # 统计分析配置
   [params.analytics]
     enable = true
