@@ -68,7 +68,7 @@ enableEmoji = true
 
   # 站点验证代码配置
   [params.verification]
-    google = "xhuI--tBwwRq4-GYxcv8rrWC6zo96jmt1JSbuaW9_eU"
+    google = "mGsccJuINiPT9eLQbZbDWqnrMiKFzgGf9VJ92Tu_y2U"
 
   # 统计分析配置
   [params.analytics]
