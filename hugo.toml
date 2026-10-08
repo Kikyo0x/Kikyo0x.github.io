@@ -66,6 +66,13 @@ enableEmoji = true
     copy = true
     maxShownLines = 30
 
+  # 统计分析配置
+  [params.analytics]
+    enable = true
+    [params.analytics.google]
+      id = "G-C3653GKL7M"
+      anonymizeIP = true
+
 [markup]
   # 语法高亮 (FixIt 主题必要配置: https://github.com/hugo-fixit/FixIt/issues/43)
   [markup.highlight]
